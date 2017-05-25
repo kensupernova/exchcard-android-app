@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/fragment_setting"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--<Button-->
+    <!--android:id="@+id/btn_setting_general"-->
+    <!--android:text="@string/general"-->
+    <!--android:textColor="@color/red"-->
+    <!--android:layout_margin="5dp"-->
+    <!--android:layout_marginTop="5dp"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="50dp"/>-->
+
+    <Button
+        android:id="@+id/btn_settings_edit_addr"
+        android:text="@string/edit_address"
+        android:textColor="@color/red"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btn_settings_passworkd"
+        android:text="@string/reset_passworkd"
+        android:textColor="@color/red"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+
+
+    <Button
+        android:id="@+id/btn_settings_log_out"
+        android:text="@string/log_out"
+        android:textColor="@color/red"
+        android:layout_margin="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"/>
+
+</LinearLayout>

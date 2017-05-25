@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_margin="5dp"
+      android:orientation="vertical"
+      app:layout_behavior="@string/appbar_scrolling_view_behavior"
+      tools:context="com.guanghuiz.exchangecard.UI.ProfileActivity"
+      tools:showIn="@layout/activity_profile">
+    <TextView
+        android:text="@string/my_name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+
+        <!--edit text, name-->
+    <EditText
+    android:id="@+id/edittext_write_name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType=""
+    android:minHeight="50dp"
+    android:layout_marginTop="5dp"/>
+
+    <TextView
+    android:text="@string/my_address_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"/>
+
+        <!--edit text, address-->
+    <EditText
+    android:id="@+id/edittext_write_address"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="50dp"
+    android:layout_marginTop="5dp"/>
+
+    <TextView
+    android:text="@string/my_postcode_title"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"/>
+        <!--edit text, postcode-->
+
+    <EditText
+    android:id="@+id/edittext_write_postcode"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp"
+    android:minHeight="10dp"/>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btn_edit_address"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:text="@string/edit_address"
+        android:textColor="@color/grey"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_marginTop="5dp"/>
+    <Button
+        android:id="@+id/btn_confirm_address"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:text="@string/confirm_address"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_marginTop="5dp"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>

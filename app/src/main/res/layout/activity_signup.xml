@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_signup_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".UI.EditAddressActivity">
+
+    <include android:id="@+id/toolbar_signup"
+             layout="@layout/toolbar_signup" >
+
+    </include>
+    <TextView
+        android:text="@string/user_email_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/edittext_user_email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/user_email_hint"
+        android:textColorHint="@color/text_clor_hint"
+        android:textSize="@dimen/general_text_size"
+        />
+
+    <TextView
+        android:text="@string/user_password_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/edittext_user_password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/user_password_hint"
+        android:textColorHint="@color/text_clor_hint"
+        android:textSize="@dimen/general_text_size"/>
+
+    <TextView
+        android:text="@string/my_name_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/edittext_write_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/my_name_hint"
+        android:textColorHint="@color/text_clor_hint"
+        android:textSize="@dimen/general_text_size"/>
+
+    <TextView
+        android:text="@string/my_address_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+    <EditText
+        android:id="@+id/edittext_write_address"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_marginTop="5dp"
+        android:hint="@string/my_address_hint"
+        android:textColorHint="@color/text_clor_hint"
+        android:textSize="@dimen/general_text_size"/>
+
+    <TextView
+        android:text="@string/my_postcode_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"/>
+
+    <EditText
+        android:id="@+id/edittext_write_postcode"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:minHeight="10dp"
+        android:hint="@string/my_postcode_hint"
+        android:textColorHint="@color/text_clor_hint"
+        android:textSize="@dimen/general_text_size"/>
+
+    <Button
+        android:id="@+id/btn_confirm_address_signup"
+        android:layout_width="fill_parent"
+        android:text="@string/confirm_address"
+        android:layout_height="wrap_content"
+        android:minHeight="50dp"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

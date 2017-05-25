@@ -1,0 +1,45 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 25
+    buildToolsVersion '25.0.0'
+
+    sourceCompatibility = 1.7
+
+    defaultConfig {
+        applicationId "com.guanghuiz.exchangecard"
+        minSdkVersion 16
+        targetSdkVersion 25
+        versionCode 4
+        versionName "0.4"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+ext {
+    supportLibVersion = '23.1.1'  // variable that can be referenced to keep support libs consistent
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:25.3.0'
+    compile 'com.android.support:design:25.0.0'
+    compile 'com.squareup.retrofit2:retrofit:2.0.0'
+    compile 'com.google.code.gson:gson:2.6.1'
+    compile 'com.squareup.retrofit2:converter-gson:2.0.0'
+    compile 'com.squareup.okhttp3:okhttp:3.1.2'
+    compile 'com.google.android.gms:play-services:9.8.0'
+    compile 'com.android.support:gridlayout-v7:25.3.0'
+    compile 'com.android.support:support-v4:25.3.0'
+    compile 'com.google.android.gms:play-services-ads:9.8.0'
+    compile 'com.google.android.gms:play-services-auth:9.8.0'
+    compile 'com.google.android.gms:play-services-gcm:9.8.0'
+    compile 'com.soundcloud.android:android-crop:1.0.1@aar'
+    compile 'com.yalantis:ucrop:1.5.0'
+}

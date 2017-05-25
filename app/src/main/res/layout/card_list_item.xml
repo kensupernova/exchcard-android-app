@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              >
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+        <ImageView
+            android:id="@+id/image_recipient_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:src="@mipmap/avatar_icon"/>
+
+        <TextView android:id="@+id/text_recipient_name"
+                  android:layout_width="wrap_content"
+                  android:layout_height="match_parent"
+                  android:layout_marginLeft="5dp"
+                  android:text ="Recipient Name"
+                  android:textSize ="12sp"
+                  android:layout_gravity="center_vertical">
+        </TextView>
+
+    </LinearLayout>
+
+
+    <ImageView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/post_card_1"
+        android:layout_margin="5dp"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="50dp">
+        <ImageView
+            android:id="@+id/heart_love_button"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginRight="20dp"/>
+        <TextView
+            android:id="@+id/text_card_name"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:textSize ="12sp"
+            android:text="card name">
+        </TextView>
+        <TextView
+            android:id="@+id/text_travelling_time"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="20dp"
+            android:textSize ="12sp"
+            android:text="Travelled 30 days" >
+        </TextView>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

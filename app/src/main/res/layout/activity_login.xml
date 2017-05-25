@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/layout_login_container"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="center_horizontal"
+              android:orientation="vertical"
+              tools:context="com.guanghuiz.exchangecard.UI.LoginActivity">
+
+    <!-- -->
+    <include android:id="@+id/toolbar_log_in"
+             layout="@layout/toolbar_login" >
+    </include>
+
+    <!-- Login progress -->
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:textColor="@color/ColorPrimary"
+            android:textSize="40dip"
+            android:text="@string/log_in_to_get_card" />
+        <!-- 文本编辑框 -->
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip"
+            android:textColor="@color/black"
+            android:hint="@string/user_email"
+            android:textColorHint="#c5c3c3"
+            android:id="@+id/edittext_username"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dip"
+            android:textColor="@color/black"
+            android:hint="@string/user_password"
+            android:textColorHint="#c5c3c3"
+            android:id="@+id/edittext_password"/>
+
+        <!--<ProgressBar-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="100dp"-->
+            <!--android:id="@+id/progressBar"-->
+            <!--android:max="100"-->
+            <!--android:layout_centerHorizontal="true"-->
+            <!--android:visibility="gone"-->
+            <!--android:layout_gravity="center_horizontal"/>-->
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:textSize="@dimen/big_text_size"
+            android:text="@string/login"
+            android:textColor="@color/ColorPrimary"
+            android:id="@+id/btn_userlogin"
+            />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:textSize="@dimen/big_text_size"
+            android:text="@string/signup"
+            android:textColor="@color/ColorPrimary"
+            android:id="@+id/btn_jump_to_user_signup"
+            />
+
+    </LinearLayout>
+
+
+</LinearLayout>
+

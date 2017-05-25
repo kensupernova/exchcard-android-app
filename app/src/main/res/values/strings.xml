@@ -1,0 +1,124 @@
+<resources>
+    <string name="app_name">ExchCard</string>
+    <string name="action_settings">Settings</string>
+    <string name="send_card">Send Postcard</string>
+    <string name="register_card">Register Received Card</string>
+    <string name="beg_for_card">Beg For Postcard</string>
+    <string name="confirm_send_card">Confirm Send Postcard to This Address</string>
+    <string name="title_activity_beg_for_card">BegForCardActivity</string>
+    <string name="my_address_title">My Address</string>
+    <string name="my_address">My ADDRESS</string>
+    <string name="confirm_address">CONFIRM</string>
+    <string name="edit_address">EDIT ADDRESS</string>
+    <string name="my_name_title">My Name</string>
+    <string name="my_postcode_title">My Postcode</string>
+    <string name="toolbar_beg_for_card_title">Leave My Address</string>
+    <string name="toolbar_send_card_title">Send Card To This Address</string>
+    <string name="is_address_right">My Address</string>
+    <string name="yes">Confirm</string>
+    <string name="cancel">Cancel</string>
+    <string name="login">Sign In</string>
+    <string name="log_in_to_get_card">Sign In To App</string>
+    <string name="user_email">User Email </string>
+    <string name="user_password">User Password</string>
+    <string name="user_email_title">User Email:</string>
+    <string name="user_name_title">User name:</string>
+    <string name="this_is_my_profile">My Profile</string>
+    <string name="not_log_in">Not Loged In</string>
+    <string name="already_loged_in">Loged In</string>
+    <string name="signup">Sign Up</string>
+    <string name="number_of_sent_cards">Total Number of Sent Cards</string>
+    <string name="number_of_received_cards">Total Number of Received Cards</string>
+    <string name="number_of_cards_traveling">Travelling Cards</string>
+    <string name="number_of_cards_arrived">Arrived Cards</string>
+
+    <string name="user_password_title">User Password: </string>
+    <string name="toolbar_signup_title">Sign Up</string>
+    <string name="user_email_hint">me@example.com</string>
+    <string name="user_password_hint">only letters, numbers, and special characters: \!\(\)\'\~\@</string>
+    <string name="my_name_hint">Please leave real name</string>
+    <string name="my_address_hint">Please leave real address</string>
+    <string name="my_postcode_hint">Please leave real postcode</string>
+    <string name="internet_is_not_connected">"No Internet, Check Connectivity!"</string>
+    <string name="empty_string">Empty</string>
+    <string name="textview_card_name_title">Card Name</string>
+    <string name="confirm_register_card">Confirm Regiser This Card</string>
+    <string name="title_activity_settings">Settings</string>
+    <string name="are_sure_to_log_out">Are sure to logout?</string>
+    <string name="log_out">Log Out</string>
+    <string name="general">General</string>
+    <string name="alert">Alert!</string>
+    <string name="alert_not_logged_in">Not Logged In, Please Log In First</string>
+    <string name="please_wait">Please wait ...</string>
+    <string name="register_account">Register Account</string>
+
+    <string name="pref_header_logout">Log Out</string>
+    <string name="tab_1_title">Send and Register</string>
+    <string name="tab_2_title">My Profile</string>
+    <string name="tab_3_title">Postcard Wall</string>
+    <string name="are_wrong"> are wrong!"</string>
+    <string name="my_personal_profile">My Profile</string>
+    <string name="text_mailaddress_title">Mailing Address:</string>
+    <string name="reset_passworkd">Reset Password</string>
+    <string name="take_photo_of_card">Take Photo of Card</string>
+
+    <!-- Strings related to Settings -->
+
+    <!-- Example General settings -->
+    <string name="pref_header_general">General</string>
+
+    <string name="pref_title_social_recommendations">Enable social recommendations</string>
+    <string name="pref_description_social_recommendations">Recommendations for people to contact
+        based on your message history
+    </string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">Add friends to messages</string>
+    <string-array name="pref_example_list_titles">
+        <item>Always</item>
+        <item>When possible</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">Notifications</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="title_activity_profile">ProfileActivity</string>
+    <string name="title_activity_reset_password">ResetPasswordActivity</string>
+</resources>

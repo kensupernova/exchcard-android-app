@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="select_pic_array">
+        <item>Camera</item>
+        <item>Gallery</item>
+        <!--<item>My Cut</item>-->
+        <!--<item>Crop</item>-->
+        <item>UCrop</item>
+    </string-array>
+</resources>

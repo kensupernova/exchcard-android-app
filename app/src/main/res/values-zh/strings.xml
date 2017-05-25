@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">明信片收藏家</string>
+    <string name="action_settings">设置</string>
+    <string name="send_card">恩赐给别人明信片</string>
+    <string name="register_card">登记收到的明信片</string>
+    <string name="beg_for_card">跪求明信片</string>
+    <string name="confirm_send_card">确认给此地址寄送明信片</string>
+    <string name="title_activity_beg_for_card">跪求明信片</string>
+    <string name="my_address">我的地址</string>
+    <string name="confirm_address">确认</string>
+    <string name="edit_address">修改地址</string>
+    <string name="toolbar_beg_for_card_title">留下我的地址</string>
+    <string name="toolbar_send_card_title">给下面地址寄送明信片</string>
+    <string name="yes">确认</string>
+    <string name="cancel">取消</string>
+    <string name="is_address_right">地址是：</string>
+    <string name="login">登录</string>
+    <string name="log_in_to_get_card">登录应用</string>
+    <string name="user_email">邮箱:</string>
+    <string name="user_password">密码:</string>
+    <string name="my_name_title">姓名：</string>
+    <string name="my_address_title">地址：</string>
+    <string name="my_postcode_title">邮编：</string>
+    <string name="this_is_my_profile">我的主页</string>
+    <string name="not_log_in">未登录</string>
+    <string name="already_loged_in">已经登录</string>
+    <string name="signup">注册</string>
+    <string name="number_of_sent_cards">恩赐的明信片</string>
+    <string name="number_of_received_cards">接收的明信片</string>
+    <string name="number_of_cards_traveling">还在飞行</string>
+    <string name="number_of_cards_arrived">已经达到</string>
+    <string name="user_email_title">邮箱</string>
+    <string name="user_name_title">名字</string>
+    <string name="user_password_title">密码</string>
+    <string name="toolbar_signup_title">注册</string>
+    <string name="user_email_hint">如：me@example.com</string>
+    <string name="user_password_hint">仅限于大小写字母，数字，以及特殊英文符号\!\(\)\'\~\@</string>
+    <string name="my_name_hint">请填写真实姓名</string>
+    <string name="my_address_hint">请填写真实地址</string>
+    <string name="my_postcode_hint">请填写真实邮编</string>
+    <string name="internet_is_not_connected">没有网络连接</string>
+    <string name="empty_string">空</string>
+    <string name="textview_card_name_title">明信片代号</string>
+    <string name="confirm_register_card">确认登记明信片</string>
+    <string name="pref_header_logout">退出</string>
+    <string name="are_sure_to_log_out">确定要退出？</string>
+    <string name="log_out">退出</string>
+    <string name="general">常用</string>
+    <string name="alert_not_logged_in">还未登录，请先登录</string>
+    <string name="alert">注意!</string>
+    <string name="please_wait">请稍等 ...</string>
+    <string name="register_account">注册账户</string>
+    <string name="tab_1_title">恩赐与接收</string>
+    <string name="tab_2_title">我的明信片</string>
+    <string name="tab_3_title">明信片墙</string>
+    <string name="are_wrong"> 错误!"</string>
+    <string name="my_personal_profile">个人主页</string>
+    <string name="text_mailaddress_title">邮寄地址：</string>
+    <string name="reset_passworkd">修改密码</string>
+    <string name="take_photo_of_card">拍照给收到的照片</string>
+    <string name="action_sign_in">登录或者注册</string>
+    <string name="action_sign_in_short">登录</string>
+    <string name="error_field_required">不能为空</string>
+    <string name="error_incorrect_password">密码错误</string>
+    <string name="error_invalid_email">邮箱地址错误</string>
+    <string name="error_invalid_password">邮箱地址太短</string>
+    <string name="plus_disconnect">切断Google+</string>
+    <string name="plus_sign_out">转换Google+账号</string>
+    <string name="pref_default_display_name">约翰 史密斯</string>
+    <string name="pref_description_social_recommendations">基于你的历史信息，推荐联系人</string>
+    <string name="pref_header_data_sync">数据同步</string>
+    <string name="pref_header_general">一般</string>
+    <string name="pref_header_notifications">提醒</string>
+    <string name="pref_ringtone_silent">静音</string>
+    <string name="pref_title_add_friends_to_messages">添加朋友到信息</string>
+    <string name="pref_title_display_name">显示名字</string>
+    <string name="pref_title_new_message_notifications">新消息提醒</string>
+    <string name="pref_title_ringtone">铃声</string>
+    <string name="pref_title_social_recommendations">打开社交推荐</string>
+    <string name="pref_title_sync_frequency">同步频率</string>
+    <string name="pref_title_system_sync_settings">系统同步设置</string>
+    <string name="pref_title_vibrate">振动</string>
+    <string name="prompt_email">邮件</string>
+    <string name="prompt_password">密码（可选）</string>
+    <string name="title_activity_login">登录</string>
+    <string name="title_activity_profile">主页活动</string>
+    <string name="title_activity_reset_password">重置密码活动</string>
+    <string name="title_activity_settings">设置</string>
+
+    <string-array name="pref_example_list_titles">
+        <item>总是</item>
+        <item>当可以的时候</item>
+        <item>绝不</item>
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+</resources>

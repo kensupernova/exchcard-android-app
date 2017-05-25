@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.guanghuiz.exchangecard.UI.RegisterCardActivity">
+
+
+    <include android:id="@+id/toolbar_register_card"
+             layout="@layout/toolbar_register_card" />
+    <TextView
+        android:text="@string/textview_card_name_title"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_margin="10dp"/>
+
+    <EditText
+        android:id="@+id/edittext_card_name"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="10dp"/>
+
+    <ImageView
+        android:id="@+id/image_photo_of_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxHeight="400dp"
+        android:text="@string/take_photo_of_card"
+        android:src="@mipmap/flat_camera_icon"
+        android:layout_margin="5dp"/>
+
+    <!--<Button-->
+        <!--android:id="@+id/btn_take_photo_of_card"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:text="@string/take_photo_of_card"-->
+        <!--android:layout_height="40dp"-->
+        <!--android:layout_margin="20dp"/>-->
+
+    <Button
+        android:id="@+id/btn_confirm_register_card"
+        android:layout_width="match_parent"
+        android:text="@string/confirm_register_card"
+        android:layout_height="40dp"
+        android:layout_margin="20dp"/>
+
+
+</LinearLayout>
